@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    background-color: blueviolet;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    width: 30%;
+    padding: 0px 10px 10px 10px;
+    margin: 20px;
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 30px;
+    border: 1px solid blueviolet;
+    margin-top: 0;
+}
+
+p {
+    display: flex;
+    padding: 20px 10px 10px 10px;
+}
